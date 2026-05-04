@@ -8,11 +8,11 @@
 // CONFIG — Update these values
 // ──────────────────────────────────────────
 const CONFIG = {
-    whatsapp: "YOUR_NUMBER",            // e.g. "9660501234567"
+    whatsapp: "07750479081",            // e.g. "9660501234567"
     whatsapp_message: "مرحباً، أريد الاستفسار عن خدماتكم",
-    instagram: "YOUR_HANDLE",           // e.g. "awdd.store"
+    instagram: "awddstore",           // e.g. "awdd.store"
     github: "YOUR_HANDLE",              // e.g. "awdd-dev"
-    linkedin: "YOUR_PROFILE_URL",       // full URL
+    facebook: "https://www.facebook.com/share/18QiKEU4pp/",       // full URL
     logo: "logo.webp",
   };
   
@@ -176,7 +176,7 @@ const CONFIG = {
     const waLink    = waUrl(CONFIG.whatsapp_message);
     const igLink    = `https://instagram.com/${CONFIG.instagram}`;
     const ghLink    = `https://github.com/${CONFIG.github}`;
-    const liLink    = CONFIG.linkedin;
+    const fbLink    = CONFIG.facebook;
   
     const setHref = (id, href) => {
       const el = document.getElementById(id);
@@ -189,13 +189,13 @@ const CONFIG = {
     setHref("sidebarWa", waLink);
     setHref("sidebarIg", igLink);
     setHref("sidebarGh", ghLink);
-    setHref("sidebarLi", liLink);
+    setHref("sidebarLi", fbLink);
   
     // Contact
     setHref("contactWa", waLink);
     setHref("contactIg", igLink);
     setHref("contactGh", ghLink);
-    setHref("contactLi", liLink);
+    setHref("contactLi", fbLink);
   
     // Main CTA
     setHref("mainCtaBtn", waLink);

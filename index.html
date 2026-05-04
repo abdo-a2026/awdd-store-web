@@ -4,11 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AWDD Store — أنظمة ذكية. مواقع احترافية. حلول سريعة.</title>
+
+  <link rel="icon" type="image/png" href="./public/icons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="./public/icons/favicon.svg" />
+  <link rel="shortcut icon" href="./public/icons/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./public/icons/apple-touch-icon.png" />
+  <link rel="manifest" href="./public/icons/site.webmanifest" />
+
   <meta name="description" content="نبني أنظمة إدارية ومواقع ويب تساعدك تدير عملك بسهولة وبدون تعقيد." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;900&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet" />
   <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -21,7 +29,8 @@
       <a href="#hero" class="nav-logo">
         <img src="logo.webp" alt="AWDD Store Logo" class="nav-logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
         <div class="nav-logo-fallback" style="display:none">
-          <i data-lucide="layers" class="logo-icon-fallback"></i>
+          <img src="./public/icons/web-app-manifest-192x192.png" alt="">
+          <!-- <i data-lucide="layers" class="logo-icon-fallback"></i> -->
         </div>
         <span class="nav-logo-text">AWDD Store</span>
       </a>
@@ -47,7 +56,8 @@
       <!-- Mobile Actions -->
       <div class="nav-mobile-actions">
         <a href="#" class="btn-icon whatsapp-btn" id="mobileWhatsapp" aria-label="واتساب">
-          <i data-lucide="message-circle"></i>
+          <!-- <i data-lucide="message-circle"></i> -->
+          <i class="fa-brands fa-whatsapp"></i>
         </a>
         <button class="btn-icon hamburger-btn" id="hamburgerBtn" aria-label="القائمة">
           <i data-lucide="menu"></i>
@@ -113,7 +123,8 @@
       <div class="hero-logo animate-logo">
         <img src="logo.webp" alt="AWDD Store" id="heroLogo" onerror="this.style.display='none';document.getElementById('heroLogoFallback').style.display='flex'" />
         <div id="heroLogoFallback" class="hero-logo-fallback" style="display:none">
-          <i data-lucide="layers"></i>
+          <img src="./public/icons/web-app-manifest-512x512.png" alt="">
+          <!-- <i data-lucide="layers"></i> -->
         </div>
       </div>
       <h1 class="hero-brand animate-brand">AWDD Store</h1>
@@ -261,16 +272,20 @@
 
       <div class="social-row reveal">
         <a href="#" class="social-big-btn" id="contactWa" aria-label="واتساب">
-          <i data-lucide="message-circle"></i>
+          <!-- <i data-lucide="message-circle"></i> -->
+          <i class="fa-brands fa-whatsapp"></i>
         </a>
         <a href="#" class="social-big-btn" id="contactIg" aria-label="انستغرام">
-          <i data-lucide="instagram"></i>
+          <!-- <i data-lucide="instagram"></i> -->
+          <i class="fa-brands fa-instagram"></i>
         </a>
         <a href="#" class="social-big-btn" id="contactGh" aria-label="غيثاب">
-          <i data-lucide="github"></i>
+          <!-- <i data-lucide="github"></i> -->
+          <i class="fa-brands fa-github"></i>
         </a>
-        <a href="#" class="social-big-btn" id="contactLi" aria-label="لينكدإن">
-          <i data-lucide="linkedin"></i>
+        <a href="#" class="social-big-btn" id="contactLi" aria-label="فيسبوك">
+          <!-- <i data-lucide="linkedin"></i> -->
+          <i class="fa-brands fa-facebook"></i>
         </a>
       </div>
 
@@ -301,7 +316,7 @@
         </nav>
       </div>
       <div class="footer-divider"></div>
-      <p class="footer-copy">© 2025 AWDD Store — جميع الحقوق محفوظة</p>
+      <p class="footer-copy">© 2026 AWDD Store — جميع الحقوق محفوظة</p>
     </div>
   </footer>
 
