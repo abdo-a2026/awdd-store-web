@@ -808,7 +808,8 @@ h1, h2, h3, h4 {
 }
 
 .card-image {
-  height: 55%;
+  /* height: 55%; */
+  height: 220px;
   overflow: hidden;
   position: relative;
   background: var(--accent-green);
@@ -859,7 +860,7 @@ h1, h2, h3, h4 {
 
 .card-body {
   flex: 1;
-  padding: 0.9rem 1rem;
+  padding: 0.5rem 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
